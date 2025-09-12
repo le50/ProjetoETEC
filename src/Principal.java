@@ -10,10 +10,18 @@ public class Principal {
 		
 		Pessoa rafael_obj = new Pessoa();
 		
-		luiz_obj.setNome("Luiz");
+		luiz_obj.setNome("Luiz"); // Maiúscula
+		victor_obj.setNome("vIcToR"); // Maiúscula
+		rafael_obj.setIdade(16); 
 		
 		System.out.println(victor_obj.getNome()); // sysout + crtl + space
+		System.out.println(victor_obj.getIdade());
 		System.out.println(luiz_obj.getNome());
+		System.out.println(luiz_obj.getIdade());
+		System.out.println(rafael_obj.getNome());
+		System.out.println(rafael_obj.getIdade());
+
+		// input = rafeal.getNome();
 	}
 
 }

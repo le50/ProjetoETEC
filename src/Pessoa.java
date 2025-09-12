@@ -28,7 +28,7 @@ public class Pessoa {
 		
 		//Setters
 		public void setNome(String nomePar) {
-			this.nomeAt = nomePar;
+			this.nomeAt = nomePar.toUpperCase(); // Tudo maíscula
 		}
 		
 		public void setIdade(int idadePar) {
