@@ -38,7 +38,7 @@ public class Pessoa {
 		
 		
 		public void setEndereco(Endereco enderecoPar) {
-			this .endereco = enderecoPar;
+			this.endereco = enderecoPar;
 		}
 		
 		public Endereco getEndereco() {
