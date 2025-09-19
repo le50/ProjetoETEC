@@ -4,16 +4,17 @@ public class Pessoa {
 	// Abaixo da class = atributo
 		String nomeAt;
 		int idadeAt;
-		Endereco estadoAt;
+		Endereco endereco;
 		
 		// Cotrutores
 		public Pessoa() {
 			//Nada
 		}
 
-		public Pessoa(String nomePar, int idadePar) {
+		public Pessoa(String nomePar, int idadePar, Endereco enderecoPar) {
 			this.nomeAt = nomePar;
 			this.idadeAt = idadePar;
+			this.endereco = enderecoPar;
 
 		}
 		
@@ -33,6 +34,15 @@ public class Pessoa {
 		
 		public void setIdade(int idadePar) {
 			this.idadeAt = idadePar;
+		}
+		
+		
+		public void setEndereco(Endereco enderecoPar) {
+			this .endereco = enderecoPar;
+		}
+		
+		public Endereco getEndereco() {
+			return endereco;
 		}
 
 }

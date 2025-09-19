@@ -37,6 +37,18 @@ public class Discente extends Pessoa{
 	
 	// getters
 	public int getNota1() {
-		
+		return nota1At;
+	}
+	
+	public int getNota2() {
+		return nota2At;
+	}
+	
+	public int getNota3() {
+		return nota3At;
+	}
+	
+	public int getNota4() {
+		return nota4At;
 	}
 }
