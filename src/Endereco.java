@@ -23,7 +23,28 @@ public class Endereco {
 		
 	}
 	
-	public void String getRua() {
-		return
+	public String getRua() {
+		return ruaAt;
+	}
+	
+	
+	
+	public void setCiade(String cidadePar) {
+		this.cidadeAt = cidadePar;
+		
+	}
+	
+	public String getCidade() {
+		return cidadeAt;
+	}
+	
+	
+	public void setEstado(String estadoPar) {
+		this.estadoAt = estadoPar;
+		
+	}
+	
+	public String getEstato() {
+		return estadoAt;
 	}
 }
